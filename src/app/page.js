@@ -64,7 +64,7 @@ export default function Home() {
               My second was with iManage in Chicago as a Front-End Developer. </p>
             <br></br>
             <a href="/experience">
-              <h1 className="experience text-center text-3xl text-white">Read more about my experience</h1>
+              <h1 className="experience text-center text-3xl text-white mt-2">Read more about my experience</h1>
             </a>
           </div>
         </div>
