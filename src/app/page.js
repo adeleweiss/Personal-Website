@@ -6,10 +6,12 @@ export default function Home() {
       <header className="flex flex-row justify-between nav px-4 py-1 sticky top-0">
 
         <div>
-          <a href="/" className="logo">AW</a>
+          <a href="/" className="logo hidden md:flex">AW</a>
         </div>
-
-        <div className="ml-auto flex space-x-15 pt-1 text-large font-semibold">
+       <div className="logo">
+          <button href="/" className="flex md:hidden">AW</button>
+       </div>
+        <div className="ml-auto flex gap-4 pt-1 text-large font-semibold hidden md:flex">
           <a href="/resume">Resume</a>
           <a href="/experience">Experience</a>
           <a href="/projects">Projects</a>
@@ -26,15 +28,15 @@ export default function Home() {
           <h1 className="text-6xl text-center font-bold text-[#4B6274]">Adele Weiss</h1>
           <h3 className="text-xl text-[#757575]">Software Developer</h3>
         </div>
-        <div className="max-w-160 max-h-dvh">
-        <img
-          src="/images/headshot.png"
-          alt="Headshot of Adele Weiss"
-          className="w-full h-auto object-contain flex justify-center"
-        />
+        <div>
+          <img
+            src="/images/headshot.png"
+            alt="Headshot of Adele Weiss"
+            className="object-contain justify-center"
+          />
 
         </div>
-      
+
       </section>
 
       <section
