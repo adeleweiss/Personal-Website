@@ -1,16 +1,22 @@
+'use client';
 import Image from "next/image";
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
+import { useState } from "react";
 
 export default function Home() {
+
   return (
     <div>
-      <header className="flex flex-row justify-between nav px-4 py-1 sticky top-0">
+      <header toggleSidebar={toggleSidebar} className="flex flex-row justify-between nav px-4 py-1 sticky top-0">
 
         <div>
           <a href="/" className="logo hidden md:flex">AW</a>
         </div>
-       <div className="logo">
-          <button href="/" className="flex md:hidden">AW</button>
-       </div>
+
+     
+
+          {/* <PopoverButton href="/" className="flex md:hidden">AW</PopoverButton> */}
+          
         <div className="ml-auto flex gap-4 pt-1 text-large font-semibold hidden md:flex">
           <a href="/resume">Resume</a>
           <a href="/experience">Experience</a>
@@ -56,7 +62,8 @@ export default function Home() {
               className="max-h-160 object-contain flex md:shadow-[-3em_3em_0px_0px_#0077B6]"
             />
           </div>
-          <div className="justify-center mx-5">
+          <div className="justify-center mx-5 flex flex-col">
+            <div className="flex-grow">
             <h2 className="text-6xl font-semibold text-[#4B6274] flex justify-center">Who am I?</h2>
             <br></br>
             <p className="text-xl">My name is Adele. I am 22 years old and I recently graduated from the University of Wisconsin-Madison with a bachelors of science in Computer Science.
@@ -64,9 +71,10 @@ export default function Home() {
             <br></br>
             <p className="text-xl">I have two previous internship experiences. My first was with Wisconsin Athletics as a Full-Stack Developer.
               My second was with iManage in Chicago as a Front-End Developer. </p>
+            </div>
             <br></br>
-            <a href="/experience">
-              <h1 className="experience text-center text-3xl text-white mt-2">Read more about my experience</h1>
+            <a href="/experience" className="mb-10">
+              <h1 className="experience text-center text-2xl font-bold text-white">Read more about my experience</h1>
             </a>
           </div>
         </div>
