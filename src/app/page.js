@@ -2,30 +2,13 @@
 import Image from "next/image";
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import { useState } from "react";
+import Navbar from './navbar.jsx';
 
 export default function Home() {
 
   return (
     <div>
-      <header toggleSidebar={toggleSidebar} className="flex flex-row justify-between nav px-4 py-1 sticky top-0">
-
-        <div>
-          <a href="/" className="logo hidden md:flex">AW</a>
-        </div>
-
-     
-
-          {/* <PopoverButton href="/" className="flex md:hidden">AW</PopoverButton> */}
-          
-        <div className="ml-auto flex gap-4 pt-1 text-large font-semibold hidden md:flex">
-          <a href="/resume">Resume</a>
-          <a href="/experience">Experience</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact" className="contact px-6 pt-0.5 mb-1">Contact Me!</a>
-        </div>
-      </header>
-
-
+      <Navbar/>
       <section
         id="hero"
         className="grid grid-cols-1 md:grid-cols-2 flex items-center justify-center bg-[#E4F2F8]"
