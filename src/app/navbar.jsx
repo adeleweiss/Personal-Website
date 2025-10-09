@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import { Bars3Icon, DocumentTextIcon, ChatBubbleBottomCenterIcon, AcademicCapIcon, BriefcaseIcon } from '@heroicons/react/24/outline'
 import { XMarkIcon } from '@heroicons/react/24/solid'
