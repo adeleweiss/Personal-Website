@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <br></br>
             <a href="/experience" className="mb-10">
-              <h1 className="experience text-center text-2xl font-bold text-white">Read more about my experience</h1>
+              <h1 className="experience p-2 text-center text-2xl font-bold text-white">Read more about my experience</h1>
             </a>
           </div>
         </div>
