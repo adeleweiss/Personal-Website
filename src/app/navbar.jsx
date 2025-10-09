@@ -16,11 +16,11 @@ export default function NavBar() {
         </div>
 
         
-        <div className="ml-auto flex gap-4 pt-1 text-large font-semibold hidden md:flex mr-2">
+        <div className="ml-auto flex gap-4 pt-1 text-large font-semibold hidden md:flex mr-2 items-center">
           <a href="/resume">Resume</a>
           <a href="/experience">Experience</a>
           <a href="/projects">Projects</a>
-          <a href="/contact" className="contact px-6 pt-0.5 mb-1">Contact Me!</a>
+          <a href="/contact" className="contact px-4 rounded-lg py-0.5">Contact Me!</a>
         </div>
 
         {/* Small screens and down, meant for mobile usage */}
