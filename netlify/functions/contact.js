@@ -4,7 +4,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function handler(req) {
   try {
-    const { firstName, lastName, email, message } = await req.json();
+    const { firstName, lastName, email, message } = JSON.parse(req.body);
 
     const data = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
