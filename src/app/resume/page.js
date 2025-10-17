@@ -23,6 +23,7 @@ export default function Resume() {
       Download My Resume
       <ArrowDownTrayIcon className="size-5 ml-2"/></button>
 
+    {/* spinner */}
     {loading && (
             <div className="ml-2">
               Loading...
