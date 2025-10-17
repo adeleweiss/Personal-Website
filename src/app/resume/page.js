@@ -4,7 +4,11 @@ import { useState } from 'react';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 
 export default function Resume() {
+  const [loading, setLoading] = useState(true);
 
+  const handleIframeLoad = () => {
+    setLoading(false);
+  };
   return (
     <div>
       <Navbar/>
@@ -18,12 +22,20 @@ export default function Resume() {
     }}>
       Download My Resume
       <ArrowDownTrayIcon className="size-5 ml-2"/></button>
-    {/* Make spinner for iframe loading, use state*/}
+
+    {loading && (
+            <div className="ml-2">
+              Loading...
+            </div>
+          )}
+    
     <div className="flex box-border w-full h-full p-4 bg-gray-100">
       <iframe
       src="https://docs.google.com/document/d/1RP63AtUMzBY6XhnQU4B_XTMnqDFLYso4-L0Vl1b0pJc/preview?tab=t.0"
       title="Google Document Viewer"
-      className="border-none h-full w-full rounded-xl shadow-lg"
+      onLoad={handleIframeLoad}
+      style={{ display: loading ? 'none' : 'block' }}
+      className="border-none h-full w-full rounded-xl shadow-lg "
     ></iframe>
   </div>
   </section>
