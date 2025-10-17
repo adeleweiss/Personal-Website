@@ -18,7 +18,7 @@ export default function Contact() {
     console.log("form submitted. data: ", { firstName, lastName, email, message });
     {/* send email to myself with form info */ }
 
-    const res = await fetch("/api/contact", {
+    const res = await fetch("/.netlify/functions/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ firstName, lastName, email, message }),
