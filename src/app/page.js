@@ -58,7 +58,7 @@ export default function Home() {
               <img src="/images/OnRed.png" 
               className="size-14 rounded-4xl mb-5 mr-5"
               alt="Wisconsin logo"/> 
-              <p className="text-lg">A year long internship as a student Full Stack Developer with Wisconsin Athletics. I learned how to develop in an agile environment and take on projects of my own for the company's internal employee website. I balanced work and academics. </p>
+              <p className="text-lg">A year long internship as a student Full Stack Developer with Wisconsin Athletics. I learned how to develop in an agile environment and take on projects of my own for the company&apos;s internal employee website. I balanced work and academics. </p>
             </div>
             <div className="md:flex justify-items-center items-center mt-5">
               <img src="/images/imanage.png" className="size-14 rounded-4xl mb-5 mr-5" alt="iManage logo"/> 
@@ -79,7 +79,7 @@ export default function Home() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 flex flex-wrap md:gap-6 md:m-10 m-3">
           <div className="justify-center mx-5" >
-            <h2 className="md:text-5xl text-3xl font-semibold text-[#4B6274] flex justify-center">What I've Done</h2>
+            <h2 className="md:text-5xl text-3xl font-semibold text-[#4B6274] flex justify-center">What I&apos;ve Done</h2>
             <br></br>
             <p className="text-xl">I have worked on serveral projects, here are a few of my favorites.
             </p>
@@ -121,7 +121,7 @@ export default function Home() {
 
           </div>
           <div className="justify-center mx-5" >
-            <h2 className="md:text-5xl text-3xl font-semibold text-[#4B6274] flex justify-center">What I'm Doing</h2>
+            <h2 className="md:text-5xl text-3xl font-semibold text-[#4B6274] flex justify-center">What I&apos;m Doing</h2>
             <br></br>
             <p className="text-xl">For almost a year now I have been working at Whole Foods Market as a cook! Although cooking is just a hobby/passion of mine this past year has taught me a lot about leadership and personal responsibility when it comes to a workplace environment.
             </p>
@@ -131,7 +131,7 @@ export default function Home() {
             </div>
             <br></br>
             <div className="">
-            <p className="text-xl">Now I spend my time between Madison WI, Chicago and Connecticut. There's always a project that I'm working on, ask me what I'm doing now!</p>
+            <p className="text-xl">Now I spend my time between Madison WI, Chicago and Connecticut. There&apos;s always a project that I&apos;m working on, ask me what I&apos;m doing now!</p>
             </div>
             <br></br>
             <a href="/contact" className="">
