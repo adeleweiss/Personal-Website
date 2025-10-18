@@ -35,14 +35,14 @@ export default function Home() {
       >
         <img
           src="/images/uw-crest.png"
-          alt="Flexible image"
+          alt="UW Crest"
           className="max-w-20 max-h-20 object-contain m-auto my-5"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 flex gap-6 md:pt-6 md:m-10 m-3">
           <div className="flex max-w-160 max-h-160 items-start justify-center m-10">
             <img
               src="/images/DSC_0591.jpg"
-              alt="Flexible image"
+              alt="Graduation photo of Adele"
               className="max-h-160 object-contain flex md:shadow-[-3em_3em_0px_0px_#0077B6] rounded outline-10 outline-[#0077B6] md:outline-none"
             />
           </div>
@@ -55,11 +55,13 @@ export default function Home() {
             <br></br>
             <p className="text-xl">I have two internship experiences. </p>
             <div className="md:flex justify-items-center items-center mt-5">
-              <img src="/images/OnRed.png" className="size-14 rounded-4xl mb-5 mr-5"/> 
+              <img src="/images/OnRed.png" 
+              className="size-14 rounded-4xl mb-5 mr-5"
+              alt="Wisconsin logo"/> 
               <p className="text-lg">A year long internship as a student Full Stack Developer with Wisconsin Athletics. I learned how to develop in an agile environment and take on projects of my own for the company's internal employee website. I balanced work and academics. </p>
             </div>
             <div className="md:flex justify-items-center items-center mt-5">
-              <img src="/images/imanage.png" className="size-14 rounded-4xl mb-5 mr-5"/> 
+              <img src="/images/imanage.png" className="size-14 rounded-4xl mb-5 mr-5" alt="iManage logo"/> 
               <p className="text-lg">Three month program with iManage as a Front-end Developer Intern. Worked alongside the automation team, then created a fullstack extension for the company product implementing realtime notifications.</p>
             </div>
             </div>
@@ -96,7 +98,7 @@ export default function Home() {
           <div className="flex max-w-160 max-h-screen items-center m-10">
             <img
               src="/images/DSC_0866.jpg"
-              alt="Flexible image"
+              alt="Photo of Adele"
               className="w-full h-auto object-contain flex justify-center md:shadow-[3em_-3em_0px_0px_#0077B6] md:shadow-[-3em_3em_0px_0px_#0077B6] rounded outline-10 outline-[#0077B6] md:outline-none"
             />
 
@@ -113,7 +115,7 @@ export default function Home() {
           <div className="flex max-w-160 max-h-screen items-center m-10">
             <img
               src="/images/IMG_1917.jpg"
-              alt="Flexible image"
+              alt="Photo of Adele and her dog"
               className="w-full h-auto object-contain flex justify-center md:shadow-[-3em_3em_0px_0px_#0077B6] md:shadow-[-3em_3em_0px_0px_#0077B6] rounded outline-10 outline-[#0077B6] md:outline-none"
             />
 
@@ -125,11 +127,11 @@ export default function Home() {
             </p>
             <br></br>
             <div className="">
-            <p className="text-xl">This past summer I took a trip to europe to celebrate my graduation with my best friend. We visited several cities in Greece, Italy, France and Spain.</p>
+            <p className="text-xl">This past summer I took a trip to Europe to celebrate my graduation with my best friend. We visited several cities in Greece, Italy, France and Spain.</p>
             </div>
             <br></br>
             <div className="">
-            <p className="text-xl">Now I spend my time between Madison WI, Chicago and Connecticut. Theres always a project that I'm working on, ask me what I'm doing now!</p>
+            <p className="text-xl">Now I spend my time between Madison WI, Chicago and Connecticut. There's always a project that I'm working on, ask me what I'm doing now!</p>
             </div>
             <br></br>
             <a href="/contact" className="">
