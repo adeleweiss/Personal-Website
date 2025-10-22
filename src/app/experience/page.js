@@ -85,7 +85,7 @@ export default function Experience() {
                     ))}
                   </div>
             <p className="text-xl font-bold">What I learned:</p>
-            <p className="text-xl"> My most important takeaway from this internship is collaboration. I often ran into tough moments when developing but learning to collaborate with either other interns or senior developers and meteors helped me grow and understand the team mindset when it comes to developing a product. 
+            <p className="text-xl"> My most important takeaway from this internship is collaboration. I often ran into tough moments when developing but learning to collaborate with either other interns or senior developers and mentors helped me grow and understand the team mindset when it comes to developing a product. 
             </p>
             <br></br>
 
